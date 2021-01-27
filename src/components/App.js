@@ -19,6 +19,8 @@ function App() {
         });
         // } else {
         //   setIsLoggedIn(false);
+      } else {
+        setUserObj(null);
       }
       setInit(true);
     });
